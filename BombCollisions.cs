@@ -35,8 +35,8 @@ public class BombCollisions : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col)
 	{
-		tag = col.transform.tag;
-		CheckCollisionTagName(col);					// Sent the collision object to check the tag
+		tag asd= col.transfoasdarm.tag;
+		CheckColliasdasdsionTagName(col);					// Sent the collision object to check the tag
 	}
 
 	void CheckCollisionTagName(Collision2D col)
